@@ -188,10 +188,15 @@ position:absolute; left:800px; top:110px;
   border-radius: 10px 10px 10px 10px;
   padding: 3px;
 }
+.team{
+  width:520px;
+  height:300px;
+  position:absolute;left:90px;top:785px
+}
 .fashion{
   width: 150px;
   height: 185px;
-  position:absolute; left:450px; top:155px;
+  position:absolute; left:455px; top:155px;
   object-fit: cover;
   border-radius: 10px 10px 10px 10px;
   padding: 3px;
@@ -285,7 +290,7 @@ position:absolute; left:-33px; top:120px;
 .nct{
   width: 210px;
   height: 220px;
- position:absolute; left:90px; top:525px;
+ position:absolute; left:90px; top:530px;
   object-fit: cover;
   border-radius: 10px 10px 10px 10px;
   padding: 3px;
