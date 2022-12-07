@@ -1,0 +1,305 @@
+.box {
+background-color: rgba(215,119,169);
+  color: #d777a1;
+border: 2px solid #FFCCDF;
+width: 400px;                               
+height: 50px;                               
+border-radius: 50px;
+  pading: 5px;
+}
+.box2 {
+  background-color: rgba(255,204,223);
+  color: #FFCCDF;
+border: 2px solid #FFCCDF;
+width: 100px;                             
+height: 32px;                             
+border-radius: 50px 0px 0px 50px;
+  pading: 5px;
+  margin-left: -2px;
+  margin-top: -46px;
+  }
+.text {
+  position: relative;
+      top: -43px;
+  }
+.letters {
+  font-family: 'Abril Fatface', cursive;
+  width: 410px;
+font-size: 18px;
+  letter-spacing:5px;
+color: #fff;                               
+font-weight: 0;
+line-height:15px;
+  margin-left: 15px;
+}
+.text3{
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 130px;
+  margin-top: -42px;
+  color: #fff;
+ letter-spacing:5px;
+  font-size: 21px;
+}
+.container {
+  padding-top: 8px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: 3px solid;
+  border-radius: 20px 20px 20px 20px;
+  border-color: #FFFB8C;
+  height: 1300px;
+  width: 1250px;
+  background-color: #1E90FF;
+  font-family: 'Abril Fatface', cursive;
+    letter-spacing:5px;
+  font-size: 45px;
+  color:#FF1493;
+  margin-left:30px;
+  text-border: 3px solid #2e1503;
+  text-shadow: 0px 0px 2px #2e1503;
+  box-shadow: 0px 0px 25px #2e1503;
+filter: saturate(70%);
+  line-height:23px;
+} 
+.pfp {
+  transition:.4s ease-out;
+  width: 200px;
+  height: 200px;
+position:absolute; left:30px; top:30px;
+  object-fit: cover;
+  background-color: #FFB3F2;
+  border-radius: 100%;
+border: 2px solid #65350F;
+  padding: 3px;
+}
+.pfp:hover{
+transform: scale(106%);
+transition: transform .3s;
+  box-shadow: 0px 0px 33px #FFFB8C;
+  height: 00px;
+width: 100px;
+filter: saturate(100%);
+}
+
+.album{
+/*   transition: .1s ease-out; */
+  width:340px;
+  height:230px;
+  position:absolute; left:835px;top:572px;
+  object-fit: cover;
+/*    border-radius: 0px 2px 2px 2px; */
+/*   padding: 0px */
+}
+.text2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  letter-spacing:6px;
+  line-height:15px;
+  color: #FFB3F2;
+  align:center;
+position:absolute; left:70px; top:290px;
+}
+.high {
+background-color: #ffc7d6;
+}
+.textbox {
+  border-width:2px;
+border-style:solid;
+  border-color: #FFFB8C;
+  border-radius: 10px 10px 10px 10px;
+height: 380px;
+    width: 430px;
+  padding-top: 2px;
+    padding-left: 3px;
+  padding-right:3px;
+  padding-bottom: 3px;
+  line-height:19.5px;
+  align:center;
+  font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+  color:#99007F;
+    overflow: none; 
+  background-color: #FFB3CC;
+position:absolute; left:325px; top:380px;
+}
+hr.vertical {
+  border:0;
+  border-left: 3px solid #65350F;
+  height: 330px;
+  float: left;
+position:absolute; left:315px; top:185px;
+}
+hr.vertical1 {
+  border:0;
+  border-left: 3px solid #65350F;
+  height: 465px;
+  float: left;
+position:absolute; left:512px; top:50px;
+}
+.photo {
+  border-width:2px;
+border-style:solid;
+  border-color: #FFFB8C;
+  border-radius: 10px 10px 10px 10px;
+height: 280px;
+    width: 210px;
+    padding-left: 1px;
+  padding-right:1px;
+  padding-bottom: 1px;
+  align:center;
+  font-family: 'Poppins', sans-serif;
+  color: #99007F;
+    font-size: 16px;
+    overflow: none; 
+  background-color: #FF9999;
+position:absolute; left:1030px; top:61px;
+}
+.textbox4 {
+  border-width:2px;
+border-style:solid;
+  border-color: #FFFB8C;
+  border-radius: 10px 10px 10px 10px;
+height: 250px;
+    width: 200px;
+    padding-left: 3px;
+  padding-right:3px;
+  padding-bottom: 3px;
+  align:center;
+  font-family: 'Poppins', sans-serif;
+  color: #99007F;
+    font-size: 21px;
+    overflow: none; 
+  background-color: #FFB3CC;
+position:absolute; left:800px; top:110px;
+}
+.haechan{
+  width: 220px;
+  height: 260px;
+ position:absolute; left:80px; top:280px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 1px;
+}
+.anime{
+  width: 160px;
+  height: 190px;
+  position:absolute; left:635px; top:160px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 3px;
+}
+.fashion{
+  width: 150px;
+  height: 185px;
+  position:absolute; left:450px; top:155px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 3px;
+}
+.phone{
+  width:410px;
+  height:630px;
+  position:absolute;left:800px;top:420px
+}
+.screen{
+  width:380px;
+  height:570px;
+  position:absolute;left:818px;top:450px
+}
+.heart{
+  width:150px;
+  height:150px;
+  position:absolute; left:770px;top:380px
+}
+
+.title{
+  width:175px;
+  height:60px;
+  position:absolute; left:920px;top:500px
+}
+.njm{
+  width:350px;
+  height:215px;
+  position:absolute;left:830px;top:802px
+}
+.brown{
+  width: 180px;
+  height: 190px;
+position:absolute; left:280px; top:150px;
+  object-fit: cover;
+  border-radius: 12px 10px 10px 10px;
+  padding: 3px;
+}
+
+
+
+.cuerpo3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  letter-spacing:5px;
+  line-height:15px;
+  color: #19B2FF;
+  align:center;
+  text-shadow: 0px 0px 25px #19B2FF;
+position:absolute; left:517px; top:50px;
+}
+.cuerpo4 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  letter-spacing:5px;
+  line-height:15px;
+  color: #FFB366;
+  align:center;
+  text-shadow: 0px 0px 25px #FFB366;
+position:absolute; left:617px; top:50px;
+}
+a {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 16px;
+  letter-spacing:5px;
+  line-height:15px;
+  align:center;
+  color: #AA00FF;
+position:absolute; left:55px; top:320px;
+}
+.box3 {
+  background-color: rgba(255,251,140);
+  color: #FFFB8C;
+border: 2px solid #FFFB8C;
+width: 32px;                             
+height: 180px;                             
+border-radius: 20px 0px 20px 0px;
+  pading: 5px;
+position:absolute; left:1px; top:41px;
+  }
+.es {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  letter-spacing:5px;
+  line-height:15px;
+  color: #66CCFF;
+  align:center;
+position:absolute; left:-33px; top:120px;
+-webkit-transform: rotate(-90deg); 
+}
+.nct{
+  width: 210px;
+  height: 220px;
+ position:absolute; left:90px; top:525px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 3px;
+}
+/*  * {
+cursor: url('https://cur.cursors-4u.net/anime/images1/ani181.gif'), auto;
+}
+  {
+cursor: url('https://cur.cursors-4u.net/anime/images1/ani181.gif'), move;
+}
+{
+cursor: url('https://cur.cursors-4u.net/anime/images1/ani181.gif'), default;
+}
+ */
+h1 {text-align: center;
+  color: transparent;
+}
