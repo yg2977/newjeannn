@@ -47,7 +47,7 @@ line-height:15px;
   border: 3px solid;
   border-radius: 20px 20px 20px 20px;
   border-color: #FFFB8C;
-  height: 1300px;
+  height: 1450px;
   width: 1250px;
   background-color: #1E90FF;
   font-family: 'Abril Fatface', cursive;
@@ -102,7 +102,7 @@ position:absolute; left:70px; top:290px;
 .high {
 background-color: #ffc7d6;
 }
-.textbox {
+/* .textbox {
   border-width:2px;
 border-style:solid;
   border-color: #FFFB8C;
@@ -120,8 +120,8 @@ height: 380px;
   color:#99007F;
     overflow: none; 
   background-color: #FFB3CC;
-position:absolute; left:325px; top:380px;
-}
+position:absolute; left:105px; top:1140px;
+} */
 hr.vertical {
   border:0;
   border-left: 3px solid #65350F;
@@ -159,7 +159,7 @@ position:absolute; left:1030px; top:61px;
 border-style:solid;
   border-color: #FFFB8C;
   border-radius: 10px 10px 10px 10px;
-height: 250px;
+height: 270px;
     width: 200px;
     padding-left: 3px;
   padding-right:3px;
@@ -189,14 +189,14 @@ position:absolute; left:800px; top:110px;
   padding: 3px;
 }
 .team{
-  width:520px;
-  height:300px;
-  position:absolute;left:90px;top:785px
+  width:560px;
+  height:330px;
+  position:absolute;left:120px;top:785px
 }
 .fashion{
-  width: 150px;
-  height: 185px;
-  position:absolute; left:483px; top:155px;
+  width: 160px;
+  height: 175px;
+  position:absolute; left:473px; top:155px;
   object-fit: cover;
   border-radius: 10px 10px 10px 10px;
   padding: 3px;
@@ -295,6 +295,51 @@ position:absolute; left:-33px; top:120px;
   border-radius: 10px 10px 10px 10px;
   padding: 3px;
 }
+
+.youtube{
+  width:450px;
+  height:350px;
+  position:absolute;left:310px;top:380px;
+}
+
+.container2{
+  height:1300px;
+  width:1240px;
+  overflow:hidden;
+  position:absolute;left:40px;top:1100px;
+}
+.gallery {
+ position:absolute; left:15px; top:0px; 
+  
+  overflow:hidden; 
+  white-space: nowrap;
+  animation: bannermove 16s linear infinite;
+ animation-play-state: running;
+ -webkit-animation-play-state: running;
+ animation-direction: alternate-reverse;
+}
+
+.gallery img {    
+object-fit: contain;
+  object-position: 10% 20%;
+padding: 0px;
+}
+
+@keyframes bannermove {
+  0% {
+      transform: translate(10, 0);
+  }
+  100% {
+      transform: translate(-60%, 0);
+  }
+}
+
+.gallery:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+}
 /*  * {
 cursor: url('https://cur.cursors-4u.net/anime/images1/ani181.gif'), auto;
 }
@@ -308,3 +353,6 @@ cursor: url('https://cur.cursors-4u.net/anime/images1/ani181.gif'), default;
 h1 {text-align: center;
   color: transparent;
 }
+  
+
+  
